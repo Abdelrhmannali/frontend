@@ -1,0 +1,130 @@
+/* Start Header */
+.main-header { 
+    background-image: url(./images/header.jpeg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+        
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index:-1;
+}
+
+/* Start Navbar */
+.navbar .container-fluid {
+    font-family:sans-serif;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    letter-spacing: 0.1cm;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 50px;
+    letter-spacing: 0.1cm;
+}
+
+.navbar-expand .navbar-nav-scroll {
+    margin-left: 140px;
+}
+
+ .navbar-expand .navbar-nav-scroll :hover {
+    letter-spacing: 0.2cm;
+} 
+
+.nav-link.disable {
+    color: #fff !important;
+    cursor: pointer !important;
+}
+
+.nav {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.button {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #fff !important;
+    border-radius: 90px !important;
+    padding: 3px !important;
+}
+
+/* .button:hover {
+    border: 1px solid #2a4963 !important;
+    background-color: #2a4963 !important;
+}  */
+
+
+/* End Navbar */
+
+/* Start Div For Header */
+
+.head {
+    color: #fff;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 33px;
+}
+
+.head h1 {
+    font-size: 50px;
+    line-height: 1.5;
+    letter-spacing: 0.1cm;
+}
+
+.head p {
+    letter-spacing: 0.07cm;
+}
+
+.me-2 {
+    width: 21% !important;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #2a4963;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.head .button{ 
+    color: #fff !important;
+    margin-top: 20px;
+    width: 130px;
+    background-color: #2a4963 !important;
+    border:3px solid #2a4963 !important;
+    border-radius: 7px !important;
+}
+
+/* End Div For Header */
+
+
+
+
+
