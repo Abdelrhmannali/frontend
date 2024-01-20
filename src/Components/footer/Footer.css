@@ -1,0 +1,86 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#265073 ;
+  color: white;
+  padding: 50px 50px;
+}
+
+.heading > h4{
+    font-size: 29px ;
+    font-weight: 600;
+    letter-spacing: 1.2;
+    margin-top: -120px;
+}
+.heading > p{
+    font-weight: 400;
+    font-size: smaller;
+    letter-spacing: 1.2px;
+}
+
+
+.services > h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.services  a{
+  color: white;
+  text-decoration: none;
+    /* font-weight: 600; */
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+}
+.contact > h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.services .links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact .links{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact  a{
+  color: white;
+  text-decoration: none;
+    /* font-weight: 600; */
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.last > h5{
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.rights{
+    background-color: #9F9F9F;
+    padding: 5px 20px;
+    font-weight: 370;
+    font-size: 14px;
+    margin-left: -1250px;
+}
+
+
+@media (max-width:678px) {
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
