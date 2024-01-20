@@ -2,6 +2,7 @@
 .main-header { 
     background-image: url(./images/header.jpeg);
     background-size: cover;
+<<<<<<< HEAD
     position: relative;
     width: 100%;
     height: 100vh;
@@ -10,6 +11,20 @@
 
 .overlay {
     position: absolute;
+=======
+    height: 700px; 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.overlay {
+    position: fixed;
+>>>>>>> e41aa7d27b316e810ebc0ef204843d214d503fa5
     top: 0;
     left: 0;
     width: 100%;
@@ -17,7 +32,11 @@
 }
 
 .overlay-background {
+<<<<<<< HEAD
     position: absolute;
+=======
+    position: fixed;
+>>>>>>> e41aa7d27b316e810ebc0ef204843d214d503fa5
     top: 0;
     left: 0;
     width: 100%;
