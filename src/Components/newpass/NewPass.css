@@ -1,0 +1,166 @@
+.form-1 .txt_field .btn {
+    width: 80%;
+    height: 45px;
+    background: #265073;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+}
+
+.m-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.m-content .nav .icon
+{ 
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    border: rgba(0, 0, 0, 0.403) solid 1px;
+    margin-left: 62px;
+}
+
+.m-content .nav .icon:hover {
+    background-color: #265073;
+    color: #fff;
+}
+
+.m-content .contenet {
+    margin-left: 500px;
+    padding-top: 35px;
+}
+
+.m-content .contenet h5 {
+    padding-top: 13px;
+}
+
+.m-content form {
+    box-sizing: border-box;
+    margin-left: 500px;
+}
+
+.ma-content form .txt_field {
+    position: relative;
+    border: none;
+    margin: 30px 0;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+.m-content form .txt_field input {
+    width: 80%;
+    padding: 7px 7px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #adadad;
+    background: none;
+    outline: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .form {
+        margin-left: 0;
+    }
+
+    .m-content .contenet {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .m-content {
+        padding: 10px; 
+    }
+
+    .m-content .contenet {
+        margin-left: 10px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .m-content {
+        padding: 0px;
+    }
+
+    .m-content form {
+        margin-left: 0px;
+    }
+
+    .m-content .nav {
+        margin-bottom: 10px;
+    }
+
+    .m-content .nav .icon {
+        margin-left: -15px;
+    }
+
+    .m-content form .txt_field input {
+        width: 90%;
+    }
+
+    .form-1 .txt_field .btn {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .m-content {
+        padding: 15px;
+    }
+
+    .m-content .nav {
+        margin-bottom: 15px;
+    }
+
+    .m-content .nav .icon_setting {
+        margin-left: 5px;
+    }
+
+    .m-content form .txt_field {
+        width: 100%;
+    }
+}
